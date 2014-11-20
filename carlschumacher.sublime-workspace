@@ -1,0 +1,441 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ro",
+				"rowHeight"
+			],
+			[
+				"to",
+				"toBeDefined	toBeDefined"
+			],
+			[
+				"toB",
+				"toBeTruthy	toBeTruthy"
+			],
+			[
+				"par",
+				"parseNotes"
+			],
+			[
+				"draw",
+				"drawSummaryRow"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"locations",
+				"locationsSvg"
+			],
+			[
+				"RWinU",
+				"RWinUp}	{RWinUp}"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 115.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"git dif",
+				"Git: Diff Current File"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Ternary If"
+			],
+			[
+				"lint",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"lin",
+				"Coffee: Lint"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"package lis",
+				"Package Control: List Packages"
+			],
+			[
+				"coffee",
+				"Coffee: Lint"
+			],
+			[
+				"comp",
+				"Coffee: Compile File"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 389.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Jake/Development/carlschumacher"
+	],
+	"file_history":
+	[
+		"/Users/Jake/Development/personal-site/.bowerrc",
+		"/Users/Jake/Development/personal-site/source/stylesheets/main.sass",
+		"/Users/Jake/Development/personal-site/data/main.yml",
+		"/Users/Jake/Development/personal-site/source/partials/_footer.slim",
+		"/Users/Jake/.zshrc",
+		"/etc/hosts",
+		"/Users/Jake/Development/personal-site/source/stylesheets/partials/_layout.sass",
+		"/Users/Jake/Development/personal-site/source/index.slim",
+		"/Users/Jake/Development/personal-site/config.rb",
+		"/Users/Jake/Development/personal-site/source/partials/_links.slim",
+		"/Users/Jake/Development/personal-site/data/links.yml",
+		"/Users/Jake/Development/personal-site/data/resume.yml",
+		"/Users/Jake/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Jake/Development/personal-site/source/stylesheets/partials/_typography.sass",
+		"/Users/Jake/Desktop/config.plist",
+		"/Users/Jake/Dropbox/Mackup/.zshrc",
+		"/Users/Jake/Development/personal-site/source/CNAME",
+		"/Users/Jake/Development/personal-site/CNAME",
+		"/Users/Jake/Development/personal-site/personal-site.sublime-project",
+		"/Users/Jake/Development/graphical-timeline/js/grid.coffee",
+		"/Users/Jake/Dropbox/Mac Setup/setup.sh",
+		"/Users/Jake/Library/Application Support/Sublime Text 3/Packages/User/MacTerminal.sublime-settings",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/location.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/xaxis.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/notes.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/notes.scss",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/medication.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/compiled/scrubber.css",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/scrubber.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/svg_element.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/xaxis.scss",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/grid.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/grid_row.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/group.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/io.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/legend.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/app.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/graphSpec.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/parser.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/parserSpec.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/gridSpec.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/graph_line.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/interfaces/componentSpec.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/interfaces/groupSpec.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/graph.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/graph_tooltip.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/miniaxis.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/timeline.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/utils.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/medication.scss",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/data/test.csv",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/tests.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/karma.conf.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/data/componentInterfaceSpec.coffee",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/User/CoffeeScript.sublime-settings",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/graph.scss",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/User/Tomorrow-Night (SL).tmTheme",
+		"/F/personal/jklingle/Sublime Settings/Tomorrow-Night (SL).tmTheme",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/data/test.json",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/timeline.sublime-project",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/data/patientdata-notes.json",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/fixtures.html",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/data/patientdata-locations.json",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/data/patientdata-meds.json",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/utilsSpec.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/spec/mainSpec.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/test.html",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/scrubber.scss",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/_colors.scss",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/index_deploy.html",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/index.html",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/timeline.scss",
+		"/C/EpicSource/8.2/DLG-332938/HSWeb/Code/Common/Web/Controls/ReportViewer/Converters/EpicConverter.cs",
+		"/C/Users/jklingle/AppData/Local/Temp/svn5202.tmp",
+		"/C/EpicSource/8.2/DLG-326716-2/HSWeb/Code/Common/Web/Controls/ReportViewer/Converters/GraphConverter.cs",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/gulpfile.coffee",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/coffeelint.json",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/README.txt",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/karma.conf.js",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/external/phantomjs/polyfills.js",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/Timeline.coffee",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/GitGutter/Default (Windows).sublime-keymap",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/Zeal/Default (Windows).sublime-keymap",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/AutoHotkey/AutoHotkey.sublime-settings",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/User/AutoHotkey.sublime-settings",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/GraphicalTimeline.csproj.user",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/GraphicalTimeline.csproj",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/.idea/libraries/GraphicalTimeline_node_modules.xml",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/GitGutter/GitGutter.sublime-settings",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/jklingle/Documents/SublimeText3/Data/Packages/User/console-log.sublime-snippet",
+		"/M/mr/Inpatient/Review Tools/Patient Timeline/prototype.git/README.txt",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/.gitignore",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/gulpfile.js",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/css/_variables.scss",
+		"/F/MR/Inpatient/Review Tools/Patient Timeline/prototype.git/README.txt",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/prototype/README.txt",
+		"/C/Users/jklingle/Documents/EPIC PROJECTS/DoD Accordion/JRPTICU7_2.txt",
+		"/M/MyChart/Mobile-WinPhone/README.txt",
+		"/C/Users/jklingle/Documents/EPIC PROJECTS/hideblank.txt",
+		"/C/EpicSource/8.2/DLG-326716-3/HSWeb/Code/Common/Web/Controls/ReportViewer/Converters/GraphConverter.cs",
+		"/C/EpicSource/8.2/DLG-326716-3/HSWeb/Code/Common/Web/Controls/ReportViewer/Converters/DocumentConverter.cs",
+		"/C/Users/jklingle/Documents/AutoHotkey.ahk",
+		"/C/Users/jklingle/Documents/EPIC PROJECTS/CDE Registry.txt",
+		"/C/Users/jklingle/coffeelint.json",
+		"/C/Users/jklingle/Desktop/DoD Accordion/JRPTICU7.txt",
+		"/C/Users/jklingle/Desktop/hideblank.txt",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/package.json",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/deploy/all.js",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/js/graph.js",
+		"/C/Users/jklingle/Documents/IISExpress/config/applicationhost.config",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/spec/javascripts/support/jasmine_helper.rb",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/spec/javascripts/support/jasmine.yml",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/Rakefile",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/_Chutzpah.coverage.html",
+		"/C/Users/jklingle/Downloads/jasmine-standalone-2.0.3/SpecRunner.html",
+		"/C/Users/jklingle/Downloads/jasmine-standalone-2.0.3/src/Song.js",
+		"//epic.com/files/docs/Design/EpicCare-Inpatient/Review Tools/2015/PRJ 119382 - Graphical Timeline/Prototype Graph.html",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/data/patientdata-location.json",
+		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/data/patientdata-meds.csv",
+		"/C/EpicSource/8.2/DLG-326716-2/HSWeb/Code/Common/Web/Controls/ReportViewer/ProviderFactory.cs"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"C:\\Users\\jklingle\\Documents\\Graphical Timeline Prototype\\GraphicalTimeline\\js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"setScrubberSelection",
+			"25",
+			"capitalize",
+			"f12",
+			"$wrapper-top",
+			"10",
+			",[\\d|.]+",
+			",-?\\d+$",
+			"                \"",
+			"(,(\\d|\\.)+)(,(\\d|\\.)+)(,(\\d|\\.)+)(,(\\d|\\.)+)(,(\\d|\\.)+)(,(\\d|\\.)+)(,(\\d|\\.)+)(,(\\d|\\.)+)",
+			"\\.(\\d{2})(\\d*,)",
+			"\\.\\d{4,8}",
+			"14 (\\d):",
+			"14 \\d:"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			",",
+			"$1$3$5$7$9,,,",
+			"$1$3$5$7$9,,",
+			"$1$3$5$7$9,,,",
+			"$1$3$5$7$9$11$13,",
+			"$1$3$5$7$9$11,$15",
+			"$1$3$5$7$9$11$13$15",
+			"$1$2$3$4$5$6$7$8",
+			"\\.$1,",
+			"\\.\\1\\2",
+			"14 0\\1:",
+			"14 0(\\1):",
+			"14 0\\1:",
+			"14 0\\d:"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 114.0
+	},
+	"project": "carlschumacher.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"grap",
+				"js\\graph.coffee"
+			],
+			[
+				"graph_li",
+				"js\\graph_line.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Development/graphical-timeline/timeline.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"graph",
+				"Graph"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

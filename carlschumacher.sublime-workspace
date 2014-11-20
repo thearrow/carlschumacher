@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"backg",
+				"background-color"
+			],
+			[
 				"ro",
 				"rowHeight"
 			],
@@ -43,6 +47,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "source/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 75,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/stylesheets/all.sass",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -140,10 +160,22 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Jake/Development/carlschumacher"
+		"/Users/Jake/Development/carlschumacher",
+		"/Users/Jake/Development/carlschumacher/data",
+		"/Users/Jake/Development/carlschumacher/source",
+		"/Users/Jake/Development/carlschumacher/source/images",
+		"/Users/Jake/Development/carlschumacher/source/javascripts",
+		"/Users/Jake/Development/carlschumacher/source/layouts",
+		"/Users/Jake/Development/carlschumacher/source/stylesheets",
+		"/Users/Jake/Development/carlschumacher/vendor"
 	],
 	"file_history":
 	[
+		"/Users/Jake/Development/carlschumacher/source/images/logo.svg",
+		"/Users/Jake/Development/carlschumacher/source/layouts/layout.slim",
+		"/Users/Jake/Development/carlschumacher/bower.json",
+		"/Users/Jake/Development/carlschumacher/source/javascripts/all.coffee",
+		"/Users/Jake/Development/carlschumacher/source/stylesheets/all.sass",
 		"/Users/Jake/Development/personal-site/.bowerrc",
 		"/Users/Jake/Development/personal-site/source/stylesheets/main.sass",
 		"/Users/Jake/Development/personal-site/data/main.yml",
@@ -266,12 +298,7 @@
 		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/spec/javascripts/support/jasmine.yml",
 		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/Rakefile",
 		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/_Chutzpah.coverage.html",
-		"/C/Users/jklingle/Downloads/jasmine-standalone-2.0.3/SpecRunner.html",
-		"/C/Users/jklingle/Downloads/jasmine-standalone-2.0.3/src/Song.js",
-		"//epic.com/files/docs/Design/EpicCare-Inpatient/Review Tools/2015/PRJ 119382 - Graphical Timeline/Prototype Graph.html",
-		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/data/patientdata-location.json",
-		"/C/Users/jklingle/Documents/Graphical Timeline Prototype/GraphicalTimeline/data/patientdata-meds.csv",
-		"/C/EpicSource/8.2/DLG-326716-2/HSWeb/Code/Common/Web/Controls/ReportViewer/ProviderFactory.cs"
+		"/C/Users/jklingle/Downloads/jasmine-standalone-2.0.3/SpecRunner.html"
 	],
 	"find":
 	{
@@ -335,8 +362,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "source/index.html.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/stylesheets/all.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

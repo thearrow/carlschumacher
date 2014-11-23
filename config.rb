@@ -4,7 +4,9 @@ configure :development do
   activate :livereload
 end
 
+activate :autoprefixer
 activate :bower
+activate :directory_indexes
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -30,4 +32,12 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
+end
+
+helpers do
+  def link_to_page(text, url, options = {})
+    options[:class] ||= ""
+    options[:class] << " active" if url == current_page.url
+    link_to(text, url, options)
+  end
 end

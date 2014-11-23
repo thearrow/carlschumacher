@@ -1,0 +1,1 @@
+.menu{padding:0}.menu li{list-style:none;display:inline;font-family:sans-serif;text-transform:uppercase;margin:20px}.menu a{color:#ddd;text-decoration:none;text-shadow:#222 2px 2px 2px;-webkit-transition:color 0.2s;transition:color 0.2s}.menu a.active{color:#aaa}.menu a:hover{color:#fff}

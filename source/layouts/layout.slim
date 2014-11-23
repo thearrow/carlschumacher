@@ -11,5 +11,6 @@ html
     .header
         =partial '/images/logo.svg'
         =partial '/partials/menu'
-    =yield
+    .content
+        =yield
     =javascript_include_tag 'all'

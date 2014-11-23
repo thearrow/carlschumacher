@@ -1,0 +1,4 @@
+.gallery
+  - Dir.foreach('source/images/gallery') do |img|
+    - next if img == '.' or img == '..'
+    =partial 'partials/thumb', :locals => { :url => "/images/gallery/#{img}" }

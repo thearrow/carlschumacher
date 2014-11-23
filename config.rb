@@ -1,4 +1,6 @@
+require "middleman-thumbnailer"
 require "uglifier"
+
 
 configure :development do
   activate :livereload
@@ -13,6 +15,10 @@ set :images_dir, 'images'
 set :slim, pretty: true
 set :relative_links, true
 sprockets.append_path '/vendor'
+activate :thumbnailer,
+  :dimensions => {
+    :small => '250x250'
+}
 
 configure :build do
   activate :relative_assets

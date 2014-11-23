@@ -1,3 +1,6 @@
+#= require zepto
+#= require magnific-popup
+
 $ ->
   $(".gallery").magnificPopup
     delegate: "a"

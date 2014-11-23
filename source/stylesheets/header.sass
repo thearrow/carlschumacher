@@ -1,23 +1,26 @@
 .header
   background: url(../images/bkg_blur.jpg) no-repeat center center
   background-size: cover
-  width: 100%
-  max-width: 1920px
+  box-shadow: $shadow-box
   height: 400px
   margin: 0 auto 0 auto
+  max-width: 1920px
+  position: relative
   text-align: center
-  box-shadow: #777 0 2px 2px
+  width: 100%
 
 .logo
   fill: #fff
-  max-width: 500px
-  margin-top: 30px
   filter: drop-shadow(2px 2px 2px #222)
+  margin-top: 30px
+  max-width: 500px
 
 .subtitle
-  background-color: rgba(30,30,30,.6)
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%)
+  bottom: 0
   color: #ddd
-  font-family: sans-serif
-  margin: 100px auto 0 auto
-  padding: 20px
+  font-family: $sans
+  padding: 40px 0 20px 0
+  position: absolute
   text-shadow: #222 2px 2px 2px
+  width: 100%

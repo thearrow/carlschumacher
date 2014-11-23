@@ -8,7 +8,6 @@ end
 
 activate :autoprefixer
 activate :bower
-activate :directory_indexes
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -21,6 +20,7 @@ activate :thumbnailer,
 }
 
 configure :build do
+  activate :asset_hash
   activate :relative_assets
   activate :minify_html
   activate :minify_css
@@ -43,7 +43,7 @@ end
 helpers do
   def link_to_page(text, url, options = {})
     options[:class] ||= ""
-    options[:class] << " active" if url == current_page.url
+    options[:class] << " active" if url == current_page.path
     link_to(text, url, options)
   end
 end

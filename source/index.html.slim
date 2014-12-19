@@ -2,14 +2,20 @@
 title: Carl Schumacher Music
 ---
 
+.grid
+  .portrait
+    img src="images/portrait.jpg"
+
+  .contact
+    ul
+      li
+        a href="mailto:#{data.home.email}" =data.home.email
+      li =data.home.phone
+      li =data.home.address
+
 p
   =data.home.intro1
 
 p
   =data.home.intro2
 
-ul.contact
-  li
-    a href="mailto:#{data.home.email}" =data.home.email
-  li =data.home.phone
-  li =data.home.address

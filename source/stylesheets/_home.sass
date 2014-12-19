@@ -1,19 +1,49 @@
 .index
   .content
     max-width: 700px
-
-  .contact
-    background-color: #eee
-    box-shadow: $shadow-box
-    font-family: $sans
-    list-style: none
-    margin: 60px auto 60px auto
-    max-width: 250px
-    text-align: center
-    padding: 20px
-
-    li
+    @media #{$small}
       margin: 10px
 
+  .grid
+    display: inline-block
+    margin-bottom: 20px
+    width: 100%
+
+  .portrait
+    box-sizing: border-box
+    display: inline-block
+    float: left
+    width: 45%
+    @media #{$small}
+      display: block
+      float: none
+      margin: 10px auto
+      width: 80%
+    img
+      box-shadow: $shadow-box
+      width: 100%
+
+  .contact
+    box-sizing: border-box
+    display: inline-block
+    float: left
+    margin-top: 45px
+    margin-left: 30px
+    width: 45%
+    @media #{$small}
+      display: block
+      float: none
+      margin: 10px auto
+      width: 80%
+    ul
+      background-color: #eee
+      box-shadow: $shadow-box
+      font-family: $sans
+      list-style: none
+      margin: 0
+      padding: 0
+      text-align: center
+    li
+      padding: 10px
       a
         color: #000

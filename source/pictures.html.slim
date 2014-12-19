@@ -4,5 +4,5 @@ scripts: pictures
 
 .gallery
   - Dir.foreach('source/images/gallery') do |img|
-    - next if img == '.' or img == '..'
+    - next if !img.end_with?('.png', '.jpg', '.gif')
     =partial 'partials/thumb', :locals => { :url => "images/gallery/#{img}" }

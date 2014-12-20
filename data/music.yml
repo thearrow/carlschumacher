@@ -9,3 +9,19 @@
     the Gospel Hummingbirds and saxophonist Branford Marsalis."
   itunes: http://www.example.com
   amazon: http://www.amazon.com/Jlw-Joe-Louis-Walker/dp/B0000046V8
+
+- title: Example Album
+  url: http://www.example.com
+  img: none.jpg
+  desc: >
+    Example Album description
+  itunes: http://www.example.com
+  amazon: http://www.example.com
+
+- title: Example Album 2
+  url: http://www.example.com
+  img: none.jpg
+  desc: >
+    Example Album 2 Description
+  itunes: http://www.example.com
+  amazon: http://www.example.com
